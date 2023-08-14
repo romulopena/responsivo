@@ -2,91 +2,63 @@
     background-color: var(--fundo-azul);
     margin:0;
 }
-
 .container{
-    display: flex;
-    align-items: center;
+    display: flex; align-items: center;
 }
-
 .container__imagem{
-    width: 45px;
-    height: 45px;
+    width: 45px; height: 45px;
 }
-
-
 .container__titulo, .container__imagem, .container__frase{
-    padding: 0.1em;
-    color: white;
+    padding: 0.1em; color: white;
 }
-
 .container__titulo, .container__frase{
     display: none;
 }
 .cx-texto{
-    display: flex;
-    justify-content: center;
+    display: flex; justify-content: center;
 }
-.orientacao3{
-    display:block;
-    font-size: 30px;
-    color: orangered;
-    border: 3px solid white;
-    margin-top: 3em; 
-    padding: 1em;
- 
+.texto-mobile{
+    display:block; font-size: 30px;
+    margin-top: 3em; padding: 1em;
 }
-.orientacao, .orientacao2{
+.texto-desktop, .texto-tablet{
     display: none;
 }
-
-
-@media  screen and (min-width: 768px) {
+@media  screen and (min-width: 820px) {
     .container__titulo{
-        font-size: 30px;
-        display: inline-block;
+        font-size: 30px; display: inline-block;
     }
+
 
     .container__titulo{
         font-weight: 400;
     }
-
-    .orientacao2{
-        display:block;
-        font-size: 30px;
-        color: white;
-        border: 3px solid black;
-        margin-top: 3em; 
-        padding: 1em;
-     
+    .texto-tablet{
+        display:block; font-size: 30px; color: white;
+        margin-top: 3em; padding: 1em;
     }
-
-    .orientacao, .orientacao3{
+    .texto-desktop, .texto-mobile{
         display: none;
     }
 }
-
-@media  screen and (min-width: 1024px) {
+@media  screen and (min-width: 1728px) {
     .container__frase{
         font-size: 30px;
         display: inline-block;
     }
-
     .container__frase{
         font-weight: 400;
         padding-left: 5em;
     }
-    .orientacao{
+    .texto-desktop{
         display: block;
         font-size: 30px;
         color: var(--lilas);
-        border: 3px solid greenyellow;
         margin-top: 3em; 
         padding: 1em;
-     
     }
-    .orientacao2, .orientacao3{
+    .texto-tablet, .texto-mobile{
         display: none;
     }
-
 }
 
