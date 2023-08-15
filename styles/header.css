@@ -18,7 +18,7 @@
     display: flex; justify-content: center;
 }
 .texto-mobile{
-    display:block; font-size: 30px;
+    display:block; font-size: 50px;
     margin-top: 3em; padding: 1em;
 }
 .texto-desktop, .texto-tablet{
@@ -26,7 +26,7 @@
 }
 @media  screen and (min-width: 820px) {
     .container__titulo{
-        font-size: 50px; display: inline-block;
+        font-size: 30px; display: inline-block;
     }
 
 
