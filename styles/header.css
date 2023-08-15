@@ -34,7 +34,7 @@
         font-weight: 400;
     }
     .texto-tablet{
-        display:block; font-size: 50px; color: white;
+        display:block; font-size: 70px; color: white;
         margin-top: 3em; padding: 1em;
     }
     .texto-desktop, .texto-mobile{
@@ -52,7 +52,7 @@
     }
     .texto-desktop{
         display: block;
-        font-size: 50px;
+        font-size: 90px;
         color: var(--lilas);
         margin-top: 3em; 
         padding: 1em;
